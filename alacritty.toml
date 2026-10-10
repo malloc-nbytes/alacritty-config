@@ -1,0 +1,33 @@
+[colors.cursor]
+cursor = "#ffdd33"
+text = "CellBackground"
+
+[colors.primary]
+background = "#101010"
+bright_foreground = "#eaeaea"
+dim_foreground = "#828482"
+foreground = "#e4e4ef"
+
+[cursor]
+blink_interval = 750
+
+[cursor.style]
+blinking = "Always"
+shape = "Block"
+
+[font]
+size = 15.0
+
+[font.normal]
+family = "Ubuntu Mono"
+style = "Regular"
+
+[window]
+dynamic_padding = false
+opacity = 0.9
+dynamic_title = true
+
+[mouse]
+bindings = [
+{ mouse = "Right", mods = "Control", action = "Paste" },
+]
